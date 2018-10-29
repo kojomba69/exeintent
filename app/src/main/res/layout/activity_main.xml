@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="384dp"
+        android:layout_height="511dp"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:id="@+id/LinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top|center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewintent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Intent"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/buttonsimple"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EXPLICIT(SIMPLE)" />
+
+            <Button
+                android:id="@+id/buttonresult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EXPLICIT(RESULT)" />
+
+            <Button
+                android:id="@+id/buttonlistview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EXPLICIT(LISTVIEW)" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
